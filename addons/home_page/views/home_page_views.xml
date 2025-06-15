@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="home_page_view_form" model="ir.ui.view">
+    <field name="name">home.page.view.form</field>
+    <field name="type">qweb</field>
+    <field name="arch" type="xml">
+
+            <div>
+                <p>Welcome to the Home Page of Odoo!</p>
+                <p>This page serves as the dashboard for your Odoo instance, providing quick access to various functionalities and widgets.</p>
+                <p>Use the navigation menu to explore different modules and features.</p>
+            </div>
+        
+    </field>
+</record>
+</odoo>
